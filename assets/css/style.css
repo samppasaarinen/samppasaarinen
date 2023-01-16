@@ -6,6 +6,38 @@ color: #ffff
 }
 
 
+.main {
+    display: flex;
+  } 
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+sidebar{
+    margin: 10px;
+    background-color: rgb(56, 127, 181);
+    min-width: 200px;
+    
+}
+
+article{
+    flex: 1;
+}
+article:nth-of-type(2) {
+    flex: 3;
+  }
+  .flexContainer {
+    display: flex;
+    background-color: bisque;
+  }
+
+  .flexGrowContainer{
+    display: flex;
+    align-items: stretch;
+    background-color: blueviolet;
+  }
+
 h1{
     
     color: #8f1919;
