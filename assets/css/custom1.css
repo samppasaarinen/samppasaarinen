@@ -1,0 +1,34 @@
+
+
+
+body {
+background-color: rgb(164, 193, 119);
+}
+
+header{
+    background-color: black;
+    color: azure;
+}
+
+footer{
+    background-color: #b50606;
+    height: 70px;
+    text-align: center;
+}
+
+.red{
+    background-color: #b50606;
+}
+
+
+.col-6{
+    background-color: aqua;
+}
+
+.col-4{
+    background-color: blueviolet;
+}
+
+.col-2{
+    background-color: beige;
+}

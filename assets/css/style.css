@@ -14,12 +14,9 @@ section{
     display: flex;
     flex-direction: column;
 }
-sidebar{
-    margin: 10px;
-    background-color: rgb(56, 127, 181);
-    min-width: 200px;
+
     
-}
+
 
 article{
     flex: 1;
