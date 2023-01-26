@@ -1,5 +1,5 @@
 body{
-background-color: #656b65;
+background-color: #8b938b;
 font-size: 14px;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 color: #ffff
@@ -19,22 +19,31 @@ section{
 
 
 article{
-    flex: 1;
+    flex: 9;
 }
 article:nth-of-type(2) {
     flex: 3;
   }
   .flexContainer {
     display: flex;
-    background-color: bisque;
+    background-color:#8b938b;
   }
 
   .flexGrowContainer{
     display: flex;
+    margin-left:  110px;
+    margin-right: 110px;
     align-items: stretch;
-    background-color: blueviolet;
+    background-color: rgb(130, 123, 123);
   }
 
+  .flexGrowContainer1{
+    display: flex;
+    margin-left:  110px;
+    margin-right: 110px;
+    align-items: stretch;
+    background-color: rgb(130, 123, 123);
+  }
 h1{
     
     color: #8f1919;
